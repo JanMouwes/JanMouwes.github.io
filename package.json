@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "rm -rf ./docs/* && mkdir -p docs && cp -r ./dist/* ./docs/"
+    "deploy": "rm -rf ./docs/* && mkdir -p docs && cp -r ./dist/* ./docs/ && git add ./docs/*"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
